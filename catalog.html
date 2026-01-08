@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Коллаген — польза и применение</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="header">
+ <div class="logo">
+  <img src="img/vitaboost_logo_transparent.png">
+  <p>ИНТЕРНЕТ-МАГАЗИН</p>
+ </div>
+
+ <div class="plus">
+   <img src="img/ChatGPT Image 7 янв. 2026 г., 10_48_09.png">
+  </div>
+  <nav class="nav" id="nav">
+  <div class="log">
+   VITABOOST
+  </div>
+
+  <ul class="nav-links">
+    <li><a href="index.html">Главная</a></li>
+    <li><a href="catalog.html">Каталог-</a></li>
+    <li><a href="pay.html">Жалобы</a></li>
+    <li><a href="#">Контакты</a></li>
+  </ul>
+
+  <div class="burger" id="burger">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</nav>
+
+
+
+   
+       
+   
+
+
+
+  
+</header>
+
+<section class="hero">
+  <h1>Каталог</h1>
+<style>
+  
+
+ * {
+  
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  
+  font-family: Arial, sans-serif;
+  padding-top: 70px; }
+
+
+
+
+
+.logor {
+  color: #55a30b;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+
+
+
+
+.modal {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.6);
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+  font-size: 15px;
+}
+
+.modal.active {
+  display: flex;
+}
+
+.modal-content {
+  background: #212121;
+  color: #fff;
+  width: 90%;
+ 
+  max-width: 400px;
+  padding: 20px;
+  border-radius: 15px;
+  position: relative;
+  animation: show .3s ease;
+}
+
+.modal-content img {
+  width: 80%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.plus img{
+  z-index: 1000000000000000000;
+}
+.close {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 38px;
+  cursor: pointer;
+}
+
+@keyframes show {
+  from {transform: scale(0.8); opacity: 0;}
+  to {transform: scale(1); opacity: 1;}
+}
+
+@media (max-width: 768px) {
+.logor{
+  color: rgb(74, 149, 16);
+}
+
+  .burger {
+    display: flex;
+  }
+.modal{
+  font-size: 12px;
+ 
+}
+.modal img{
+  width: 60%;
+}
+  .nav-links {
+    position: fixed;
+    top: 70px;
+    left: 0;
+    width: 100%;
+    height: calc(100vh - 70px);
+    background: rgba(15, 15, 15, 0.97);
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    transform: translateX(100%);
+    transition: 0.5s ease;
+   
+  }
+
+  .nav-links.active {
+    transform: translateX(0);
+  }
+
+  
+}
+</style>
+
+  <div class="cont1">
+ 
+    
+        <div class="catalog ">
+           
+        <div class="item">
+        <img src="https://ir.ozone.ru/s3/multimedia-7/c1000/6609022135.jpg">
+               
+                <p>El Amor Premium Tart Cherry Collagen</p>
+                 
+               <a href="pay.html"><button>Купить</button></a> 
+            <button class="open-modal"
+  data-title="Коллаген Вишня"
+  data-price="550 сом"
+  data-desc="Корейский коллаген с экстрактом вишни. Поддерживает кожу, суставы и волосы."
+  data-img="https://ir.ozone.ru/s3/multimedia-7/c1000/6609022135.jpg"
+  data-info='
+Тип:Коллаген (Hydrolyzed Collagen Jelly)
+Цена:1 уп (10 стиков) — 600 сом
+Белок на порцию: ~3 г коллагена
+Калорийность: ~26 ккал
+Углеводы: ~5 г
+Жиры:~0.2 г
+Состав: Рыбный гидролизованный коллаген, экстракт манго, витамин C, гиалуроновая кислота
+Форма: Желе-стики
+Вкус: Манго
+Для кого: Для ежедневного приема мужчин и женщин
+Эффект: Улучшение состояния кожи, волос и ногтей, поддержка суставов
+'
+
+  >
+  Подробнее
+</button>
+
+                 </div>
+           
+            <div class="item">
+              <img src="https://ir.ozone.ru/s3/multimedia-7/c1000/6609022135.jpg">
+               
+                <p>Realme GT7 Pro</p>
+               
+                <a href="pay.html"><button>Купить</button></a> 
+             <button class="open-modal"
+  data-title="Коллаген Вишня"
+  data-price="550 сом"
+  data-desc="Корейский коллаген с экстрактом вишни. Поддерживает кожу, суставы и волосы."
+  data-img="img/cherry.jpg">
+  Подробнее
+</button>
+                 </div>
+            
+            <div class="item">
+              <img src="https://ir.ozone.ru/s3/multimedia-7/c1000/6609022135.jpg">
+                
+                <p>Google Pixel 10 Pro</p>
+               
+                 <a href="pay.html"><button>Купить</button></a> 
+               <button class="open-modal"
+  data-title="Коллаген Вишня"
+  data-price="550 сом"
+  data-desc="Корейский коллаген с экстрактом вишни. Поддерживает кожу, суставы и волосы."
+  data-img="https://ir.ozone.ru/s3/multimedia-7/c1000/6609022135.jpg">
+  Подробнее
+</button>
+
+          </div>
+            
+
+            <div class="item">
+              <img src="https://shopme365.com/image/cache/catalog/korea/healts/bad/HP_double_glutatione-550x550w.jpg">
+               
+                <p>Samsung S25 ULTRA </p>
+               
+                 <a href="pay.html"><button>Купить</button></a> 
+                 <button class="open-modal"
+  data-title="Коллаген Вишня"
+  data-price="550 сом"
+  data-desc="Корейский коллаген с экстрактом вишни. Поддерживает кожу, суставы и волосы."
+  data-img="img/cherry.jpg">
+  Подробнее
+</button>
+             </div>
+                
+
+                <div class="item">
+                  <img src="https://ekb.hi-stores.ru/upload/iblock/174/d39616q452obe5dugqb4d7sk0exsf4pa.jpg">
+              
+                <p>OnePlus 15</p>
+                <p>999 <strong>$</strong></p>
+              <a href="pay.html"><button>Купить</button></a> 
+                  <button class="open-modal"
+  data-title="Коллаген Вишня"
+  data-price="550 сом"
+  data-desc="Корейский коллаген с экстрактом вишни. Поддерживает кожу, суставы и волосы."
+  data-img="img/cherry.jpg">
+  Подробнее
+</button>
+                 </div>
+        
+  
+            <div class="item">
+              <img src="https://pdaplaza.ca/wp-content/uploads/2025/10/buy-vivo-x300-pro-5g-dual-sim-16gb-512gb-free-blue-cn-version-298.jpg">
+               
+                <p>Vivo X300 Pro</p>
+                <p>799 <strong>$</strong></p>
+                <a href="pay.html"><button>Купить</button></a> 
+                 <button class="open-modal"
+  data-title="Коллаген Вишя"
+  data-price="550 сом"
+  data-desc="Корейский коллаген с экстрактом вишни. Поддерживает кожу, суставы и волосы."
+  data-img="img/cherry.jpg">
+  Подробнее
+</button>
+            </div>
+
+           
+                
+    </div>
+ </div>
+
+ </div>
+ <div class="modal" id="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+
+    <img id="modal-img">
+    <h2 id="modal-title"></h2>
+    <p id="modal-desc"></p>
+     <div id="modal-info"></div>
+    <strong id="modal-price"></strong>
+  </div>
+</div>
+ 
+</section>
+
+
+</section>
+
+    <footer class="footer">
+  <div class="footer-inner">
+
+    
+    <div class="footer-logo">
+      
+      <img src="img/vitaboost_logo_transparent.png" alt="Brand logo">
+    </div>
+
+   
+    <div class="footer-contacts">
+      <h3>Контакты</h3>
+      <a href="tel:+996700000000">+996 700 00 00 00</a>
+      <a href="https://wa.me/996700000000" target="_blank">WhatsApp: +996 700 00 00 00</a>
+      <a href="mailto:info@yourbrand.com">info@yourbrand.com</a>
+    </div>
+
+   
+   
+    <div class="footer-socials">
+  <h3>Социальные сети</h3>
+  <div class="social-icons">
+    <a href="https://instagram.com" target="_blank">
+      <img src="http://pngimg.com/uploads/instagram/instagram_PNG11.png" alt="Instagram">
+    </a>
+
+    <a href="https://t.me" target="_blank">
+      <img src="https://avatanplus.com/files/resources/original/5e73948500afa170f37c278b.png" alt="Telegram">
+    </a>
+
+    <a href="https://wa.me/996700000000" target="_blank">
+      <img src="https://pngimg.com/uploads/whatsapp/whatsapp_PNG20.png" alt="WhatsApp">
+    </a>
+  </div>
+</div>
+
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
+<script>
+const modal = document.getElementById('modal');
+
+document.querySelectorAll('.open-modal').forEach(btn => {
+  btn.addEventListener('click', () => {
+    modal.classList.add('active');
+    document.getElementById('modal-title').textContent = btn.dataset.title;
+    document.getElementById('modal-desc').textContent = btn.dataset.desc;
+    document.getElementById('modal-price').textContent = btn.dataset.price;
+    document.getElementById('modal-img').src = btn.dataset.img;
+     document.getElementById('modal-info').innerHTML = btn.dataset.info;
+  });
+});
+
+document.querySelector('.close').onclick = () => {
+  modal.classList.remove('active');
+};
+
+modal.onclick = (e) => {
+  if (e.target === modal) modal.classList.remove('active');
+};
+  const toggle = document.getElementById('themeToggle');
+
+  toggle.addEventListener('click', () => {
+    document.body.classList.toggle('dark');
+  });
+</script>
+<script>
+const burger = document.getElementById('burger');
+const navLinks = document.querySelector('.nav-links');
+
+burger.addEventListener('click', () => {
+  burger.classList.toggle('active');
+  navLinks.classList.toggle('active');
+});
+</script>
